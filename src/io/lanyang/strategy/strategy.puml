@@ -1,0 +1,19 @@
+@startuml
+
+abstract class Duck {
+
+   private String name;
+   private String test;
+
+   private void getName();
+
+}
+
+
+Duck <|--  PekingDuck
+Duck <|-- ToyDuck
+Duck <|-- WildDuck
+
+
+
+@enduml
